@@ -35,20 +35,54 @@ Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
+
+
+Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
+Developed by: Mario Viofer.J
+RegisterNumber:  212223100032
+
 Program:
 /*
-Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Half adder:
+module halfadder(sum,a,b,carry);
+input a,b;
+output sum,carry;
+xor (sum,a,b);
+and (carry ,a,b);
+endmodule
+
+Full adder:
+module fulladder(a,b,c,sum,carry);
+input a,b,c;
+output sum, carry;
+xor(sum,a,b,c);
+assign carry=a&b | b&c | a&c;
+endmodule
+
 Logic symbol & Truthtable
 RTL realization
 
 ### Output:
 ### RTL
-### TIMING DIAGRAM
+Half adder:
+![image](https://github.com/Mario-Viofer-J/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979232/73fe3092-5778-4b45-a055-2415e097ed44)
 
+Full adder:
+![image](https://github.com/Mario-Viofer-J/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979232/d70cc2be-d4b8-467c-b056-ec576e1681ff)
+
+### TIMING DIAGRAM
+Half adder:
+![image](https://github.com/Mario-Viofer-J/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979232/1a2b560c-7cbb-4e52-bf83-70cefedf24ff)
+
+Fulladder:
+![image](https://github.com/Mario-Viofer-J/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979232/b44e4539-90e8-4b81-aa72-eb12b12f4443)
 
 ### TRUTH TABLE 
+Half adder:
+![image](https://github.com/Mario-Viofer-J/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979232/6ba3dfb6-d6e1-4620-9edb-722b3d8255cd)
+
+Full adder:
+![image](https://github.com/Mario-Viofer-J/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979232/c4630770-a88b-40d5-807c-00203f12e640)
 
 ### Result:
+Thus the given full adder and half adder are verified using verilog programming.
