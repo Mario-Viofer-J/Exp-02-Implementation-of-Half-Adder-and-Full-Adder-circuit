@@ -65,23 +65,29 @@ RTL realization
 ### Output:
 ### RTL
 Half adder:
+
 ![image](https://github.com/Mario-Viofer-J/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979232/73fe3092-5778-4b45-a055-2415e097ed44)
 
 Full adder:
+
 ![image](https://github.com/Mario-Viofer-J/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979232/d70cc2be-d4b8-467c-b056-ec576e1681ff)
 
 ### TIMING DIAGRAM
 Half adder:
+
 ![image](https://github.com/Mario-Viofer-J/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979232/1a2b560c-7cbb-4e52-bf83-70cefedf24ff)
 
 Fulladder:
+
 ![image](https://github.com/Mario-Viofer-J/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979232/b44e4539-90e8-4b81-aa72-eb12b12f4443)
 
 ### TRUTH TABLE 
 Half adder:
+
 ![image](https://github.com/Mario-Viofer-J/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979232/6ba3dfb6-d6e1-4620-9edb-722b3d8255cd)
 
 Full adder:
+
 ![image](https://github.com/Mario-Viofer-J/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144979232/c4630770-a88b-40d5-807c-00203f12e640)
 
 ### Result:
